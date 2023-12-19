@@ -1,0 +1,160 @@
+.c-wrapper {
+  position: relative;
+  z-index: 4;
+  gap: 3rem;
+}
+
+.c-container {
+  width: 80%;
+  background-color: #fff;
+}
+
+.cLeft {
+  min-width: 450px;
+  background: url(../../images/contactBg.png) center/cover no-repeat;
+  height: 660px;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.headContent {
+  align-self: flex-start;
+}
+
+.headContent > span:nth-child(1) {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.headContent > span:nth-child(2) {
+  color: #c9c9c9;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.centerContent {
+  gap: 0.5rem;
+}
+
+.centerContent > span {
+  gap: 1rem;
+}
+
+.centerContent > span > a {
+  padding-top: 0.8rem;
+}
+
+.centerContent > span > p {
+  padding-top: 1rem;
+}
+
+.footContent {
+  gap: 1rem;
+}
+
+.cIcons {
+  width: 30px;
+  height: 40px;
+  color: #fff;
+}
+
+.centerContent > span > .cIcons {
+  width: 20px;
+  height: 20px;
+}
+
+.cRight {
+  width: 60%;
+  height: 100%;
+  align-self: flex-start;
+}
+.cForms {
+  justify-content: space-around;
+}
+
+.cForms > span > input {
+  width: 250px;
+  border: none;
+  border-bottom: 1px solid rgb(6, 6, 6);
+}
+
+.commentArea {
+  width: 90%;
+  gap: 0.5rem;
+  margin-top: 50px;
+}
+
+.commentArea > .commentInput {
+  width: 100%;
+  border: none;
+  font-size: 0.8rem;
+  height: 40px;
+  border-bottom: 1px solid rgb(6, 6, 6);
+}
+
+.commentArea > span {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.commentArea > span > button {
+  height: 45px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(6, 6, 6);
+}
+
+.cFooter {
+  background: url(../../images/contactFootbg.png) center/cover no-repeat;
+  width: 100%;
+  gap: 3rem;
+}
+
+.cFooterWrapper {
+  width: 80%;
+}
+
+.cFooterText {
+  justify-content: space-between;
+  color: #fff;
+  font: 300 20px Poppins;
+  line-height: normal;
+  width: 90%;
+  margin-top: 15px;
+}
+
+.cFooterText > span {
+  gap: 1rem;
+  align-self: flex-start;
+}
+
+.cFooterText > span > p {
+  font: 600 28px Poppins;
+}
+
+.cFooterText > span > ul {
+  text-decoration: none;
+}
+
+.cFooterText > span > ul > li {
+  list-style-type: none;
+  gap: 1rem;
+  font: 300 20px Poppins;
+}
+
+.cFooterNav {
+  width: 90%;
+  justify-content: space-between;
+  height: 80px;
+  align-self: center;
+  color: #fff;
+  font: 400 20px Poppins;
+}

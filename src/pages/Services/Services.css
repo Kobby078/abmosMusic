@@ -1,0 +1,52 @@
+.s-container {
+    width: 80%;
+    position: relative;
+    z-index: 4;
+}
+
+.s-text {
+    gap: 1rem;
+}
+
+.s-card {
+    width: 260px;
+    height: 350px;
+    flex-shrink: 0;
+    background: #081653;
+    box-shadow: 0px 4px 90px 0px rgba(0, 0, 0, 0.15);
+    gap: 0.5rem;
+    animation: fadeInUp 0.5s ease-out;
+}
+
+.s-lightText {
+    color: rgba(255, 255, 255, 0.70);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font: 700 16px/normal "Montserrat"; 
+    line-height: normal;
+    animation: fadeInUp 1s ease-out;
+}
+
+.s-cardWrapper {
+    gap: 1rem;
+}
+
+.s-cardText {
+    text-align: center;
+    gap: 1.5rem;
+    animation: fadeInUp 1s ease-out;
+}
+
+.s-cardText:nth-child(1) {
+    font-size: 18px;
+}
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

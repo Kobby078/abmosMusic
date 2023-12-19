@@ -1,0 +1,65 @@
+.ar-container {
+    overflow: hidden;
+    position: relative;
+    z-index: 4;
+}
+
+.arHeadText {
+    gap: 7rem;
+}
+
+.ltHeadTxt>p:nth-child(1) {
+    color: #FFF;
+    font: 400 16px/1.2 "Poppins";
+    line-height: 26px; /* 162.5% */
+    letter-spacing: 0.3px; 
+}
+.ltHeadTxt>p:nth-child(2) {
+    color: #FC5252;
+    font: 600 16px/1.2 "Poppins";
+    font-family: Poppins;
+    letter-spacing: 0.346px; 
+}
+
+.ar-footer {
+    position: relative;
+    z-index: 4;
+    height: 450px;
+    width: 100%;
+    gap: 3rem;
+    background: url(/artFooter.png) center/cover no-repeat;
+}
+
+.ar-footer>span:nth-child(1) {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 118.519% */
+    letter-spacing: 0.3px;
+}
+
+.ar-footer>span:nth-child(2) {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;   
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 112% */
+}
+
+.ar-footer>button {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    padding: 18px 34px;
+    align-items: center;
+    gap: 12px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FC5252;
+    border: none;
+    color: #FFF;
+}
